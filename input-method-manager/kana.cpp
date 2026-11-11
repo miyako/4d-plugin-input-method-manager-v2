@@ -120,12 +120,12 @@ std::u16string to_halfwidth_katakana(const std::u16string &s) {
             if (h) { out += h; out += HALF_SEMI_VOICED; continue; }
         }
         switch (c) {
-            case 0x30F4: out += u"ｳﾞ"; continue; // ヴ
-            case 0x30F7: out += u"ﾜﾞ"; continue; // ヷ
-            case 0x30FA: out += u"ｦﾞ"; continue; // ヺ
-            case 0x30F5: out += u'ｶ'; continue;       // ヵ
-            case 0x30F6: out += u'ｹ'; continue;       // ヶ
-            case 0x30EE: out += u'ﾜ'; continue;       // ヮ
+            case 0x30F4: out += u"\uFF73\uFF9E"; continue; // ヴ
+            case 0x30F7: out += u"\uFF9C\uFF9E"; continue; // ヷ
+            case 0x30FA: out += u"\uFF66\uFF9E"; continue; // ヺ
+            case 0x30F5: out += char16_t(0xFF76); continue;       // ヵ
+            case 0x30F6: out += char16_t(0xFF79); continue;       // ヶ
+            case 0x30EE: out += char16_t(0xFF9C); continue;       // ヮ
             default: out += c; continue;
         }
     }
