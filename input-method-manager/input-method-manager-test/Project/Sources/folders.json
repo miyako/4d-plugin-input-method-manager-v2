@@ -1,0 +1,15 @@
+{
+    "Tests": {
+        "methods": [
+            "test_all",
+            "assert_text",
+            "test_constants",
+            "test_convert_kana",
+            "test_phonetic",
+            "test_input_methods",
+            "test_status",
+            "test_reading"
+        ]
+    },
+    "trash": {}
+}

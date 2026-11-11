@@ -1,0 +1,17 @@
+{
+  "build_dir": "input-method-manager/build",
+  "bundle_identifier": "com.4d.input-method-manager",
+  "dependencies": [],
+  "macos_deployment_target": "11.0",
+  "native_tests": false,
+  "product": "input-method-manager",
+  "profile": "macos-universal-windows-x64",
+  "release_branch": "main",
+  "schema": 1,
+  "sdk_dir": "4D-Plugin-SDK",
+  "signing_environment": "release-signing",
+  "signing_policy": "developer-id",
+  "source_dir": "input-method-manager",
+  "startup_method": "test_all",
+  "test_project": "input-method-manager/input-method-manager-test/Project/input-method-manager.4DProject"
+}

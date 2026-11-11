@@ -1,0 +1,22 @@
+//%attributes = {"invisible":true,"preemptive":"capable"}
+// v1 constant names and values are unchanged
+ASSERT(CMODE_DIRECT_INPUT=-1)
+ASSERT(CMODE_ALPHANUMERIC=0)
+ASSERT(CMODE_NATIVE=1)
+ASSERT(CMODE_KATAKANA=2)
+ASSERT(CMODE_FULLSHAPE=8)
+ASSERT(CMODE_ROMAN=16)
+ASSERT(CMODE_FIXED=2048)
+ASSERT(SMODE_NONE=0)
+ASSERT(SMODE_AUTOMATIC=4)
+ASSERT(SMODE_PHRASEPREDICT=8)
+ASSERT(SMODE_CONVERSATION=16)
+
+ASSERT(IM mode unknown=-1)
+ASSERT(IM mode direct input=0)
+ASSERT(IM mode hiragana=1)
+ASSERT(IM mode halfwidth alphanumeric=5)
+ASSERT(IM kana hiragana=0)
+ASSERT(IM kana halfwidth katakana=2)
+ASSERT(IM error none=0)
+ASSERT(IM error failed=-6)

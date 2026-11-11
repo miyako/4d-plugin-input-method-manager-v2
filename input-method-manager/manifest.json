@@ -1,0 +1,96 @@
+{
+    "name": "Input Method Manager",
+    "id": 20000,
+    "commands": [
+        {
+            "theme": "Imm Context",
+            "syntax": "IM Associate:L",
+            "threadSafe": false
+        },
+        {
+            "theme": "Imm Context",
+            "syntax": "IM Disassociate:L",
+            "threadSafe": false
+        },
+        {
+            "theme": "Imm Status",
+            "syntax": "IM Get mode(&L;&L):L",
+            "threadSafe": false
+        },
+        {
+            "theme": "Imm Status",
+            "syntax": "IM Set mode(&L;&L):L",
+            "threadSafe": false
+        },
+        {
+            "theme": "Imm Status",
+            "syntax": "IM Get open status:L",
+            "threadSafe": false
+        },
+        {
+            "theme": "Imm Status",
+            "syntax": "IM Set open status(&L):L",
+            "threadSafe": false
+        },
+        {
+            "theme": "Imm Status",
+            "syntax": "IM Get input mode:L",
+            "threadSafe": false
+        },
+        {
+            "theme": "Imm Status",
+            "syntax": "IM Set input mode(&L):L",
+            "threadSafe": false
+        },
+        {
+            "theme": "Imm Composition",
+            "syntax": "IM Get composition:J",
+            "threadSafe": false
+        },
+        {
+            "theme": "Imm Composition",
+            "syntax": "IM Complete composition:L",
+            "threadSafe": false
+        },
+        {
+            "theme": "Imm Composition",
+            "syntax": "IM Cancel composition:L",
+            "threadSafe": false
+        },
+        {
+            "theme": "Imm Input Method",
+            "syntax": "IM Get input methods:C",
+            "threadSafe": false
+        },
+        {
+            "theme": "Imm Input Method",
+            "syntax": "IM Get input method:J",
+            "threadSafe": false
+        },
+        {
+            "theme": "Imm Input Method",
+            "syntax": "IM Set input method(&T):L",
+            "threadSafe": false
+        },
+        {
+            "theme": "Imm Reading",
+            "syntax": "IM Set reading capture(&L):L",
+            "threadSafe": false
+        },
+        {
+            "theme": "Imm Reading",
+            "syntax": "IM Get reading(&L):T",
+            "threadSafe": false
+        },
+        {
+            "theme": "Imm Reading",
+            "syntax": "IM Get phonetic(&T;&L):T",
+            "threadSafe": true
+        },
+        {
+            "theme": "Imm Reading",
+            "syntax": "IM Convert kana(&T;&L):T",
+            "threadSafe": true
+        }
+    ]
+}

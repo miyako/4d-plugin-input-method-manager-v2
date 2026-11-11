@@ -1,0 +1,24 @@
+# input-method-manager
+/input-method-manager/input-method-manager-test/Data/
+/input-method-manager/input-method-manager-test/Project/DerivedData/
+/input-method-manager/input-method-manager-test/userPreferences.*/
+/input-method-manager/input-method-manager-test/Logs/
+/input-method-manager/cmake-build/
+**/xcuserdata/
+.DS_Store
+
+# BEGIN 4D PLUGIN PIPELINE (managed)
+/input-method-manager/build/
+/input-method-manager/input-method-manager-test/Plugins/
+/.local-tools/
+/.package-inputs/
+/.package-validation/
+/.release-package/
+/.signed-distribution/
+/.signed-extracted/
+/.publish-extracted/
+/.draft-upload-check/
+/.draft-extracted/
+/.release-notes
+__pycache__/
+# END 4D PLUGIN PIPELINE (managed)
