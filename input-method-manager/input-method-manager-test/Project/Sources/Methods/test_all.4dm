@@ -8,6 +8,7 @@ If (Application info.headless)
 	test_status
 	test_reading
 	
-	LOG EVENT(Into system standard outputs; "PASS"; Information message)
+	// end the line: tool4d can print a warning right after it, and CI needs an exact "PASS" line
+	LOG EVENT(Into system standard outputs; "PASS"+Char(Line feed); Information message)
 	
 End if 
